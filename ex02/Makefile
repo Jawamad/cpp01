@@ -1,4 +1,4 @@
-NAME = Zombie
+NAME = Brain
 DIR_SRC = src/
 DIR_OBJ = obj/
 CC = c++

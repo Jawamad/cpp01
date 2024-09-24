@@ -1,4 +1,4 @@
-NAME = Zombie
+NAME = violence
 DIR_SRC = src/
 DIR_OBJ = obj/
 CC = c++
