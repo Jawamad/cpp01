@@ -12,7 +12,7 @@ class HumanB
 		HumanB(std::string nme);
 		HumanB();
 		~HumanB();
-		void setWeapon(Weapon wp);
+		void setWeapon(Weapon& wp);
 		void attack();
 };
 #endif

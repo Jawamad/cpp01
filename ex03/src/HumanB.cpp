@@ -1,16 +1,14 @@
 #include "../inc/HumanB.hpp"
 
-HumanB::HumanB(std::string nme)
+HumanB::HumanB(std::string nme) : weapon(NULL)
 {
-	weapon = NULL;
 	name = nme;
 }
 HumanB::~HumanB()
 {
-
 }
 
-void HumanB::setWeapon(Weapon wp)
+void HumanB::setWeapon(Weapon& wp)
 {
 	weapon = &wp;
 }
@@ -22,5 +20,5 @@ void HumanB::attack()
 		std::cout << weapon->getType();
 	else
 		std::cout << "arms";
-	std::cout <<std::endl;
+	std::cout << std::endl;
 }
